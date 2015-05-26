@@ -106,7 +106,7 @@ void ofxServerOscManager::_update(ofEventArgs &e)
 			m.addIntArg( remoteComputerTime );		// their time
 
 			_sender.sendMessage(m, false);
-            multicastSender.sendMessage(m, false);
+            //multicastSender.sendMessage(m, false);
 		}
         if(m.getAddress() == "/data"){
             DataPacket packet;
