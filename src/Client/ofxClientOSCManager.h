@@ -39,6 +39,11 @@ public:
         return &commonTimeOsc;
     }
     
+    inline int getUniqueComputerID()
+    {
+        return uniqueComputerID;
+    }
+    
     inline bool isReady(){
         return haveSetupSender;
     }
